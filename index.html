@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anush Kumar M | Android Developer</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.jpg" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Boxicons for Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="gradient-text">Anush</span>.dev
+            </a>
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="assets/Anush Kumar Resume.pdf" download class="btn btn-primary btn-sm" id="nav-resume-btn">
+                    Download Resume
+                </a>
+                <button id="theme-btn" class="theme-btn" aria-label="Toggle theme">
+                    <i class='bx bx-sun' id="theme-icon"></i>
+                </button>
+                <div class="menu-btn" id="menu-btn">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-close">
+            <i class='bx bx-x' id="close-menu-btn"></i>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#skills" class="mobile-nav-link">Skills</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#experience" class="mobile-nav-link">Experience</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <p class="greeting">Hi, I am</p>
+                <h1 class="name">Anush Kumar M</h1>
+                <h2 class="title gradient-text">Android Developer</h2>
+                <p class="description">
+                    I build scalable, modern, and user-centric Android applications. Currently bringing designs to life
+                    through clean architecture and intuitive user experiences.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects <i class='bx bx-right-arrow-alt'></i></a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <!-- <a href="Anush Kumar Resume.pdf" download class="btn btn-primary">
+                        <i class='bx bx-download'></i> Download Resume
+                    </a> -->
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/anushkumar0810" target="_blank" class="social-icon"><i
+                            class='bx bxl-github'></i></a>
+                    <a href="https://www.behance.net/anushkumar16" target="_blank" class="social-icon"><i
+                            class='bx bxl-behance'></i></a>
+                    <a href="#" target="_blank" class="social-icon"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+            </div>
+            <div class="hero-image reveal-delay">
+                <div class="image-wrapper glass-panel">
+                    <img src="assets/anush_kumar_m.png" alt="Anush Kumar - Android Developer" class="profile-img">
+                    <!-- Floating Badge -->
+                    <div class="floating-badge badge-1">
+                        <i class='bx bxl-android'></i>
+                        <span>Kotlin</span>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class='bx bx-code-alt'></i>
+                        <span>1+ Years</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class='bx bx-mouse'></i> <span class="indicator-text">Scroll Down</span></a>
+        </div>
+        <!-- Background Elements -->
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                <p class="section-subtitle">Get to know more about my background and focus.</p>
+            </div>
+            <div class="about-content grid-2 auto-cols">
+                <div class="about-text glass-card reveal">
+                    <h3>My Journey</h3>
+                    <p>I am an enthusiastic Android Developer based in India, with over 2 years of experience in
+                        creating modern native mobile applications including freelance. My passion lies in solving
+                        complex problems and translating ideas into robust applications.</p>
+                    <p>I specialize in writing clean, maintainable code using Kotlin and applying Clean Architecture
+                        principles. I strive to create responsive and accessible UI designs that deliver the best
+                        experience for end users.</p>
+                </div>
+                <div class="about-stats grid-2 reveal-delay">
+                    <div class="stat-card glass-card">
+                        <i class='bx bx-briefcase'></i>
+                        <h4>1+ Years</h4>
+                        <p>Experience</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <i class='bx bx-folder'></i>
+                        <h4>20+</h4>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <i class='bx bx-map'></i>
+                        <h4>India</h4>
+                        <p>Madurai, TamilNadu</p>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <i class='bx bx-coffee'></i>
+                        <h4>∞</h4>
+                        <p>Coffee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                <p class="section-subtitle">Technologies and tools I work with daily.</p>
+            </div>
+            <div class="skills-grid grid-3">
+                <div class="skill-category glass-card reveal">
+                    <div class="category-header">
+                        <i class='bx bxl-android'></i>
+                        <h3>Languages & Frameworks</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="skill-name">Kotlin</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Java</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Android SDK</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Android Views (XML)</span> <span class="skill-dot"></span></li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card reveal-delay">
+                    <div class="category-header">
+                        <i class='bx bx-layer'></i>
+                        <h3>Architecture</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="skill-name">MVVM</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Clean Architecture</span> <span class="skill-dot"></span></li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card reveal-delay-2">
+                    <div class="category-header">
+                        <i class='bx bx-wrench'></i>
+                        <h3>Tools & Services</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="skill-name">Firebase</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Android Studio</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Git & GitHub</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Cloud Console</span> <span class="skill-dot"></span></li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card reveal-delay-2">
+                    <div class="category-header">
+                        <i class='bx bx-network-chart'></i>
+                        <h3>Networking</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="skill-name">Retrofit</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Volley</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">RESTful APIs</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Figma</span> <span class="skill-dot"></span></li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card reveal-delay-2">
+                    <div class="category-header">
+                        <i class='bx bx-palette'></i>
+                        <h3>Design Tools</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="skill-name">Figma</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Canva</span> <span class="skill-dot"></span></li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card reveal-delay-2">
+                    <div class="category-header">
+                        <i class='bx bx-brain'></i>
+                        <h3>AI/ Vibe Code Tools</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><span class="skill-name">Antigravity</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Lovabe AI</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Chat-GPT</span> <span class="skill-dot"></span></li>
+                        <li><span class="skill-name">Gemini</span> <span class="skill-dot"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Background Elements -->
+        <div class="bg-shape shape-3"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">What I <span class="gradient-text">Do</span></h2>
+                <p class="section-subtitle">Services I offer to clients and teams.</p>
+            </div>
+            <div class="services-list grid-3">
+                <div class="service-card glass-card reveal">
+                    <div class="service-icon"><i class='bx bx-mobile-alt'></i></div>
+                    <h3>App Development</h3>
+                    <p>Building native Android applications from scratch with a focus on performance and usability.</p>
+                </div>
+                <div class="service-card glass-card reveal-delay">
+                    <div class="service-icon"><i class='bx bx-transfer-alt'></i></div>
+                    <h3>API Integration</h3>
+                    <p>Seamlessly integrating RESTful APIs and connecting mobile apps to backend services.</p>
+                </div>
+                <div class="service-card glass-card reveal-delay-2">
+                    <div class="service-icon"><i class='bx bx-layout'></i></div>
+                    <h3>UI Implementation</h3>
+                    <p>Translating Figma designs into responsive XML or Jetpack Compose interfaces.</p>
+                </div>
+                <div class="service-card glass-card reveal">
+                    <div class="service-icon"><i class='bx bx-bug'></i></div>
+                    <h3>Bug Fixing</h3>
+                    <p>Identifying, debugging, and resolving application crashes and performance bottlenecks.</p>
+                </div>
+                <div class="service-card glass-card reveal-delay">
+                    <div class="service-icon"><i class='bx bx-wrench'></i></div>
+                    <h3>Native & Cross-Platform Solutions</h3>
+                    <p>I develop mobile applications using native Android and Flutter, helping businesses reach more
+                        users efficiently without compromising quality.</p>
+                </div>
+                <div class="service-card glass-card reveal-delay">
+                    <div class="service-icon"><i class='bx bx-rocket'></i></div>
+                    <h3>App Publishing</h3>
+                    <p>Preparing and publishing applications to the Google Play Store following guidelines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Some of my most notable Android applications.</p>
+            </div>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card glass-card reveal">
+                    <div class="project-img-container">
+                        <img src="assets/face_login_app_1772640823726.png" alt="Face Recognition Login App"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Face Recognition Login</h3>
+                        <p>A secure authentication application utilizing facial recognition. Implements cutting-edge ML
+                            models on mobile devices.</p>
+                        <div class="project-tags">
+                            <span class="tag">CameraX</span>
+                            <span class="tag">ML Kit</span>
+                            <span class="tag">FaceNet</span>
+                            <span class="tag">Kotlin</span>
+                        </div>
+                        <!-- <div class="project-links">
+                            <a href="https://github.com/anushkumar0810" target="_blank"
+                                class="btn btn-outline btn-sm"><i class='bx bxl-github'></i> Code</a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card reveal-delay">
+                    <div class="project-img-container">
+                        <img src="assets/meeting_manager_app_1772640848878.png" alt="Meeting Manager App"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Meeting Manager</h3>
+                        <p>A comprehensive app for managing meetings, scheduling, and real-time communication using
+                            external SDKs.</p>
+                        <div class="project-tags">
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Zego SDK</span>
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">MVVM</span>
+                        </div>
+                        <!-- <div class="project-links">
+                            <a href="https://github.com/anushkumar0810" target="_blank"
+                                class="btn btn-outline btn-sm"><i class='bx bxl-github'></i> Code</a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card reveal-delay-2">
+                    <div class="project-img-container">
+                        <img src="assets/local_guide_app_1772640888251.png" alt="Local Guide App" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Local Guide App</h3>
+                        <p>A location-based application that helps users discover nearby places, built with clean
+                            architecture and mapping tools.</p>
+                        <div class="project-tags">
+                            <span class="tag">Google Maps</span>
+                            <span class="tag">Places API</span>
+                            <span class="tag">MVVM</span>
+                            <span class="tag">Coroutines</span>
+                        </div>
+                        <!-- <div class="project-links">
+                            <a href="https://github.com/anushkumar0810" target="_blank"
+                                class="btn btn-outline btn-sm"><i class='bx bxl-github'></i> Code</a>
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Section -->
+    <section id="github" class="github bg-dark section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Open Source <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Check out my recent open source contributions and repositories.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- GitHub Project 1 -->
+                <div class="project-card glass-card reveal">
+                    <div class="project-img-container">
+                        <img src="assets/view_recipe.png" alt="View Recipe App" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>View Recipe</h3>
+                        <p>Android recipe browsing application that allows users to explore cooking ideas with a simple
+                            and clean interface.</p>
+                        <div class="project-tags">
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">RecyclerView</span>
+                            <span class="tag">REST APIs</span>
+                        </div>
+                        <div class="project-links mt-auto">
+                            <a href="https://github.com/anushkumar0810/View-Recipe.git" target="_blank"
+                                class="btn btn-outline btn-sm">
+                                <i class='bx bxl-github'></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GitHub Project 2 -->
+                <div class="project-card glass-card reveal-delay">
+                    <div class="project-img-container">
+                        <img src="assets/ak_chats.png" alt="AK Chats App" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>AK Chats</h3>
+                        <p>Real-time Android chat application with modern UI and Firebase-based message synchronization.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Realtime Database</span>
+                        </div>
+                        <div class="project-links mt-auto">
+                            <a href="https://github.com/anushkumar0810/Ak-Chats-kotlin.git" target="_blank"
+                                class="btn btn-outline btn-sm">
+                                <i class='bx bxl-github'></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GitHub Project 3 -->
+                <div class="project-card glass-card reveal-delay-2">
+                    <div class="project-img-container">
+                        <img src="assets/android14_permissions.png" alt="Android 14 Permissions App"
+                            class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Android 14 Permissions</h3>
+                        <p>Demonstration project showing how to handle Android 14 selective media permissions for photos
+                            and videos.</p>
+                        <div class="project-tags">
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Android 14 APIs</span>
+                        </div>
+                        <div class="project-links mt-auto">
+                            <a href="https://github.com/anushkumar0810/Android-14-Permissions.git" target="_blank"
+                                class="btn btn-outline btn-sm">
+                                <i class='bx bxl-github'></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GitHub Project 4 -->
+                <div class="project-card glass-card reveal">
+                    <div class="project-img-container">
+                        <img src="assets/student_app.png" alt="Student App" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Student App</h3>
+                        <p>Student management application allowing basic profile management and academic data display.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">RecyclerView</span>
+                            <span class="tag">MVVM</span>
+                        </div>
+                        <div class="project-links mt-auto">
+                            <a href="https://github.com/anushkumar0810/Student-App.git" target="_blank"
+                                class="btn btn-outline btn-sm">
+                                <i class='bx bxl-github'></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GitHub Project 5 -->
+                <div class="project-card glass-card reveal-delay">
+                    <div class="project-img-container">
+                        <img src="assets/zego_call.png" alt="Zego Video Call App" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Zego 1-on-1 Video Call</h3>
+                        <p>Android video calling implementation using Zego Cloud SDK for real-time communication.</p>
+                        <div class="project-tags">
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Zego SDK</span>
+                        </div>
+                        <div class="project-links mt-auto">
+                            <a href="https://github.com/anushkumar0810/Zego-1-on-1.git" target="_blank"
+                                class="btn btn-outline btn-sm">
+                                <i class='bx bxl-github'></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GitHub Project 6 -->
+                <div class="project-card glass-card reveal-delay-2">
+                    <div class="project-img-container">
+                        <img src="assets/map_view.png" alt="My Map View App" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>My Map View</h3>
+                        <p>Android map integration project demonstrating location markers and map interactions.</p>
+                        <div class="project-tags">
+                            <span class="tag">Google Maps API</span>
+                            <span class="tag">Kotlin</span>
+                        </div>
+                        <div class="project-links mt-auto">
+                            <a href="https://github.com/anushkumar0810/My-Map-View.git" target="_blank"
+                                class="btn btn-outline btn-sm">
+                                <i class='bx bxl-github'></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Behance Section -->
+    <section id="behance" class="behance section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Design <span class="gradient-text">Portfolio</span></h2>
+                <p class="section-subtitle">UI/UX designs and concepts created on Behance.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Behance Project 1 -->
+                <div class="design-card glass-card reveal">
+                    <div class="design-img-container">
+                        <img src="assets/behance_real_estate.jpg" alt="Real Estate Themes" class="project-img">
+                    </div>
+                    <div class="design-info">
+                        <h3>Real Estate Themes</h3>
+                        <a href="https://www.behance.net/gallery/235984763/Real-Estate-Themes-By-Anush-Kumar"
+                            target="_blank" class="design-link">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Behance Project 2 -->
+                <div class="design-card glass-card reveal-delay">
+                    <div class="design-img-container">
+                        <img src="assets/behance_helpora.jpg" alt="Helpora AI Website" class="project-img">
+                    </div>
+                    <div class="design-info">
+                        <h3>Helpora AI Website</h3>
+                        <a href="https://www.behance.net/gallery/236519995/Helpora-AI-Website-By-Anush-Kumar"
+                            target="_blank" class="design-link">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Behance Project 3 -->
+                <div class="design-card glass-card reveal-delay-2">
+                    <div class="design-img-container">
+                        <img src="assets/behance_menus.jpg" alt="Hotel & Restaurant Menus" class="project-img">
+                    </div>
+                    <div class="design-info">
+                        <h3>Hotel & Restaurant Menus</h3>
+                        <a href="https://www.behance.net/gallery/236047673/Hotel-Restaurant-Menus-By-Anush-Kumar"
+                            target="_blank" class="design-link">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Behance Project 4 -->
+                <div class="design-card glass-card reveal">
+                    <div class="design-img-container">
+                        <img src="assets/behance_figma.jpg" alt="Figma Posters" class="project-img">
+                    </div>
+                    <div class="design-info">
+                        <h3>Figma Posters</h3>
+                        <a href="https://www.behance.net/gallery/241182223/Figma-Posters" target="_blank"
+                            class="design-link">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Behance Project 5 -->
+                <div class="design-card glass-card reveal-delay">
+                    <div class="design-img-container">
+                        <img src="assets/behance_photoshop.jpg" alt="Photoshop Posters" class="project-img">
+                    </div>
+                    <div class="design-info">
+                        <h3>Photoshop Posters</h3>
+                        <a href="https://www.behance.net/gallery/241182529/Photoshop-Posters" target="_blank"
+                            class="design-link">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Behance Project 6 -->
+                <div class="design-card glass-card reveal-delay-2">
+                    <div class="design-img-container">
+                        <img src="assets/behance_android14.jpg" alt="Android 14 Limited Access UI" class="project-img">
+                    </div>
+                    <div class="design-info">
+                        <h3>Android 14 Limited Access UI</h3>
+                        <a href="https://www.behance.net/gallery/241412451/14-Limited-Access" target="_blank"
+                            class="design-link">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="center-btn mt-4 reveal">
+                <a href="https://www.behance.net/anushkumar16" target="_blank" class="btn btn-outline">
+                    <i class='bx bxl-behance'></i> View Behance Portfolio
+                </a>
+            </div>
+        </div>
+        <!-- Background Elements -->
+        <div class="bg-shape shape-4"></div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">My <span class="gradient-text">Experience</span></h2>
+                <p class="section-subtitle">My professional journey so far.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">August 2025 – Present</div>
+                        <h3>Android Developer (Freelance)</h3>
+                        <p class="company-name">Independent / Freelance</p>
+                        <p>Working independently as an Android developer focusing on building scalable mobile
+                            applications and improving modern Android development practices.</p>
+                        <ul class="experience-list">
+                            <li>Building Android apps using Kotlin and modern architectures like MVVM, MVP, and Clean
+                                Architecture.</li>
+                            <li>Designing scalable app structures and improving code maintainability.</li>
+                            <li>Practicing and improving development workflows using modern AI-assisted coding tools.
+                            </li>
+                            <li>Enhancing UI/UX with responsive layouts, smooth animations, and adaptive designs.</li>
+                            <li>Continuously upgrading Android development skills and experimenting with new
+                                technologies.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">May 2024 – July 2025</div>
+                        <h3>Android Application Developer</h3>
+                        <p class="company-name">Hitasoft Technology Solutions</p>
+                        <ul class="experience-list">
+                            <li>Developed Android applications using Kotlin, MVVM architecture, and REST API
+                                integrations.</li>
+                            <li>Built dynamic UI components with XML layouts, RecyclerView, and ViewBinding.</li>
+                            <li>Implemented Google Maps API for location-based features and address validation.</li>
+                            <li>Integrated Bluetooth FTMS protocol for treadmill connectivity and live workout metrics.
+                            </li>
+                            <li>Built subscription systems and in-app purchases using Google Play Billing, Braintree,
+                                and Stripe.</li>
+                            <li>Improved user engagement through modern UI transitions and bottom sheet interactions.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-box glass-card reveal">
+                <div class="contact-header">
+                    <h2><span class="gradient-text">Let's Work</span> Together</h2>
+                    <p>I'm currently available for freelance work and open to new opportunities. Let's discuss your next
+                        project.</p>
+                </div>
+
+                <div class="contact-links">
+                    <a href="mailto:anushkumarm2001@gmail.com" class="contact-item">
+                        <div class="icon-box"><i class='bx bx-envelope'></i></div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email Me</span>
+                            <span class="contact-value">anushkumarm2001@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/anushkumar0810" target="_blank" class="contact-item">
+                        <div class="icon-box"><i class='bx bxl-github'></i></div>
+                        <div class="contact-details">
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value">anushkumar0810</span>
+                        </div>
+                    </a>
+
+                    <a href="https://www.behance.net/anushkumar16" target="_blank" class="contact-item">
+                        <div class="icon-box"><i class='bx bxl-behance'></i></div>
+                        <div class="contact-details">
+                            <span class="contact-label">Behance</span>
+                            <span class="contact-value">anushkumar16</span>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/anush-kumar-m-210763300/" target="_blank" class="contact-item">
+                        <div class="icon-box"><i class='bx bxl-linkedin'></i></div>
+                        <div class="contact-details">
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">Connect with me</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <span class="gradient-text">Anush</span>.dev
+            </div>
+            <p class="copyright">&copy; <span id="year"></span> Anush Kumar M. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script/script.js"></script>
+</body>
+
+</html>
